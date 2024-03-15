@@ -1,0 +1,14 @@
+C:\Users\mglenn\source\repos\Chyoa\bin\Debug\Chyoa.exe.config
+C:\Users\mglenn\source\repos\Chyoa\bin\Debug\Chyoa.exe
+C:\Users\mglenn\source\repos\Chyoa\bin\Debug\Chyoa.pdb
+C:\Users\mglenn\source\repos\Chyoa\obj\Debug\Chyoa.csprojAssemblyReference.cache
+C:\Users\mglenn\source\repos\Chyoa\obj\Debug\Chyoa.csproj.CoreCompileInputs.cache
+C:\Users\mglenn\source\repos\Chyoa\obj\Debug\Chyoa.exe
+C:\Users\mglenn\source\repos\Chyoa\obj\Debug\Chyoa.pdb
+C:\Users\Matthew\Documents\Chyoa\bin\Debug\Chyoa.exe.config
+C:\Users\Matthew\Documents\Chyoa\bin\Debug\Chyoa.exe
+C:\Users\Matthew\Documents\Chyoa\bin\Debug\Chyoa.pdb
+C:\Users\Matthew\Documents\Chyoa\obj\Debug\Chyoa.csprojAssemblyReference.cache
+C:\Users\Matthew\Documents\Chyoa\obj\Debug\Chyoa.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Documents\Chyoa\obj\Debug\Chyoa.exe
+C:\Users\Matthew\Documents\Chyoa\obj\Debug\Chyoa.pdb

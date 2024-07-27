@@ -23,6 +23,8 @@ namespace Chyoa.Sets.CharacterCreation
 
 
             EventMessage_NearbyWeapons();
+            //palTristall.myFace.AddMovementPlan_SingleDirection(CEdit.Shapes.Shape.MovementsAndActions.Left, 10);
+            //palTristall.myFace.AddMovementPlan_SingleDirection(CEdit.Shapes.Shape.MovementsAndActions.Right, 10);
             SpeechBoxPrompt_WhichWeapon();
 
             
@@ -36,15 +38,15 @@ namespace Chyoa.Sets.CharacterCreation
                         break;
 
                     case PalStuff.Races.Race.RaceName.Asher:
-                        palTristall.Assign_SpeechBox("What's your weapon, friend?", true);
+                        palTristall.Assign_SpeechBox("Looks like it's our lucky day... What's your weapon, friend?", true);
                         break;
 
                     case PalStuff.Races.Race.RaceName.Sephrie:
-                        palTristall.Assign_SpeechBox("What's your weapon, friend?", true);
+                        palTristall.Assign_SpeechBox("Looks like it's our lucky day... Can your dainty Sephrie fingers at least hold a weapon?", true);
                         break;
 
                     case PalStuff.Races.Race.RaceName.Tol_Roth:
-                        palTristall.Assign_SpeechBox("What's your weapon, friend?", true);
+                        palTristall.Assign_SpeechBox("Looks like it's our lucky day... What's your weapon, friend?", true);
                         break;
                 }
                 
@@ -53,7 +55,7 @@ namespace Chyoa.Sets.CharacterCreation
             
             void EventMessage_NearbyWeapons()
             {
-                Shared.EventColumn_Update.AddEvent_To_EventColumn("One of the nearby crates was overturned in the chaose and weapons are spilling out.", PUBVAR.Colors.DarkYellow, PUBVAR.Colors.White, 20, 100);
+                Shared.EventColumn_Update.AddEvent_To_EventColumn("In the chaos, one of the nearby crates was overturned spilling weapons across the ground.", PUBVAR.Colors.DarkYellow, PUBVAR.Colors.White, 20, centerScreen);
             }
             
             mtool.SM_Weapons.GetWeapon(CEdit.Shapes.ShapeMaker_Weapons.WeaponTypes.Sword,   out var sword);

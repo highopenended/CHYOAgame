@@ -12,7 +12,6 @@ namespace Chyoa.Sets.SceneTools
         List<CEdit.Shapes.Variations.TextBoxShapes.Typer_TextBox> listOfSequenceTextboxes_AlreadyDisplayed = new List<CEdit.Shapes.Variations.TextBoxShapes.Typer_TextBox>();
 
 
-
         /// <summary>
         /// Cycle through a list of description textboxes, cycle through on key-press, then drop them all off the screen after the last one
         /// </summary>

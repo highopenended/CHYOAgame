@@ -27,7 +27,10 @@ namespace Chyoa.CEdit.Shapes.Variations.TextBoxShapes.StringEdit
         {            
             
             // Convert spaces to omitChar
-            for (int i = 0; i < equalWidthStrings.Count; i++) { equalWidthStrings[i] = equalWidthStrings[i].Replace(' ', emptySpaceChar); }
+            for (int i = 0; i < equalWidthStrings.Count; i++) {
+                //System.Diagnostics.Debug.WriteLine("Line : " + equalWidthStrings[i]);
+                equalWidthStrings[i] = equalWidthStrings[i].Replace(' ', emptySpaceChar);                
+            }
 
             // Find the longest string length
             int longestStringLength = equalWidthStrings.Aggregate("", (max, cur) => max.Length > cur.Length ? max : cur).Length;

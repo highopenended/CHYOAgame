@@ -13,7 +13,6 @@ namespace Chyoa.Sets.CharacterCreation
 
         PalStuff.Pal palTristall;
 
-
   
         List<string> lRaceNames = new List<string>()
             {
@@ -51,12 +50,10 @@ namespace Chyoa.Sets.CharacterCreation
         List<CEdit.Shapes.Shape> lShapes = new List<CEdit.Shapes.Shape>();
         List<CEdit.Shapes.Shape> lDescriptionBoxes = new List<CEdit.Shapes.Shape>();
 
-
         CEdit.Shapes.Shape selectedShape;
         int selectedIndex;
 
         PalStuff.Pal newCharacterPal;
-
 
         public override void Display_Scene()
         {
@@ -77,8 +74,6 @@ namespace Chyoa.Sets.CharacterCreation
             Move_Shapes_Offscreen();
             Move_Tristall_And_SelectedOption();
             SpeechBox_Tristall_Response();
-
-
 
 
             //=================================================================
@@ -265,7 +260,6 @@ namespace Chyoa.Sets.CharacterCreation
             //=================================================================
             void Move_Tristall_And_SelectedOption()
             {
-
                 palTristall.myFace.Tick_ChangeStepDistancesUDLR(5, 1, true);
                 palTristall.myFace.AddMovementPlan_SingleDirection(CEdit.Shapes.Shape.MovementsAndActions.Right, 10);
 

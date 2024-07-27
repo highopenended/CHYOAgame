@@ -136,7 +136,6 @@ namespace Chyoa.CEdit.Shapes.Variations.TextBoxShapes.StringEdit
                 startPoint = endPoint + 1;
             }
 
-
             //---------------------------------------------------
             // Make strings that fit within boundaries
             //---------------------------------------------------
@@ -144,7 +143,16 @@ namespace Chyoa.CEdit.Shapes.Variations.TextBoxShapes.StringEdit
             string lineOfStrings = "";
             for (int i = 0; i < lSeperatedWords.Count; i++)
             {
-                tempWord = lSeperatedWords[i];
+                if(i== lSeperatedWords.Count-1)
+                {
+                    tempWord = lSeperatedWords[i].Trim();
+                }
+                else
+                {
+                    tempWord = lSeperatedWords[i];
+                }
+
+                //tempWord = lSeperatedWords[i];
 
                 if (tempWord != (forceSplitChar + " "))
                 {

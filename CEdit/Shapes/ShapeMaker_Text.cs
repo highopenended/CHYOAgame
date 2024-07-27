@@ -36,6 +36,12 @@ namespace Chyoa.CEdit.Shapes
                                         isCentered);
             char[,] arrTextBox = ArrayMaker.GetCharArr(lBoxedStrings);
 
+
+            for (int i = 0; i < arrTextBox.Length; i++)
+            {
+                //Console.WriteLine(arrTextBox[i]);
+            }
+
             return arrTextBox;
         }
 

@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using Chyoa.Shared;
 
 
+
 namespace Chyoa
 {
     class Program
@@ -28,15 +29,13 @@ namespace Chyoa
 
             Startup.MainUI_DisplayMaker.Make_UI();
 
-            MusicTimer.SetTimer();
+            //MusicTimer.SetTimer();
 
             // Start the Game
             Sets.GameManager GameMaster = new Sets.GameManager();
             GameMaster.StartGame();
 
             Console.ReadKey();
-
         }
-
     }
 }

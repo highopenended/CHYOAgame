@@ -16,14 +16,14 @@ namespace Chyoa.CEdit
         static readonly char[,] CombinedArr_Color_BG = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
 
         // Movement Arrays : For shapes that are in motion
-        static readonly char[,] MoveArr_Char         = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
+        static readonly char[,] MoveArr_Char     = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
         static readonly char[,] MoveArr_Color_FG = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
         static readonly char[,] MoveArr_Color_BG = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
 
         // Static Arrays : For shapes that are not in motion
-        static readonly char[,] StaticArr_Char       = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
-        static readonly char[,] StaticArr_Color_FG = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
-        static readonly char[,] StaticArr_Color_BG = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
+        static readonly char[,] StaticArr_Char      = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
+        static readonly char[,] StaticArr_Color_FG  = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
+        static readonly char[,] StaticArr_Color_BG  = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];
 
         // Absolute Top Arrays : Anything in this array will default to the very top
         static readonly char[,] AbsTopArr_Char       = new char[PUBVAR.windowHeight + 1, PUBVAR.windowWidth];  

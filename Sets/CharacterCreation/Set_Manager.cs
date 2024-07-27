@@ -23,9 +23,6 @@ namespace Chyoa.Sets.CharacterCreation
         S2_Choose_Name      Scene_ChooseName    = new S2_Choose_Name(palTristall);      
         S3_Choose_Weapon    Scene_ChooseWeapon  = new S3_Choose_Weapon(palTristall);
         Choose_Armor        Scene_ChooseArmor   = new Choose_Armor();
-        
-
-
 
         public override void Start_Scene()
         {

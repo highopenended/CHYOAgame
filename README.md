@@ -1,0 +1,2 @@
+## CHYOA: The Choose Your Own Adventure Game
+This is a game I started making purely as a means to motivate myself to learn coding. As a result, there is going to be smarter and dumber code intermingled throughout- artifacts of the various stages of my learning journey.
